@@ -145,8 +145,8 @@
   ;; TODO: set up inheritance when native line numbers reach release
   (line-number                               (:foreground darktooth-dark2))
   (line-number-current-line                  (:foreground darktooth-light4 :background darktooth-dark1))
-  (hl-line                                   (:background darktooth-dark1))
-  (region                                    (:background darktooth-mid_blue :distant-foreground darktooth-light0))
+  (hl-line                                   (:background darktooth-dark1 :extend t))
+  (region                                    (:background darktooth-mid_blue :distant-foreground darktooth-light0 :extend t))
   (secondary-selection                       (:background darktooth-dark_blue))
   (cua-rectangle                             (:background darktooth-mid_blue))
   (header-line                               (:foreground darktooth-turquoise4 :background darktooth-dark0 :bold nil))
@@ -411,7 +411,7 @@
   (org-mode-line-clock-overrun               (:foreground darktooth-black :background darktooth-bright_red))
   (org-ellipsis                              (:inherit 'font-lock-comment-face :slant 'normal :underline nil))
   (org-footnote                              (:foreground darktooth-faded_aqua :underline t))
-  (org-block                                 (:foreground darktooth-light2 :background darktooth-dark0_soft))
+  (org-block                                 (:foreground darktooth-light2 :background darktooth-dark0_soft :extend t))
   (org-code                                  (:foreground darktooth-light2 :background darktooth-dark0_soft))
   (org-verbatim                              (:foreground darktooth-light2 :background darktooth-dark0_soft))
   (org-agenda-current-time                   (:foreground darktooth-bright_green))
@@ -645,7 +645,7 @@
   (col-highlight                             (:inherit 'vline))
 
   ;; MODE SUPPORT: column-enforce-mode
-  (column-enforce-face                       (:foreground darktooth-dark4 :background darktooth-dark_red))
+  (column-enforce-face (:inherit 'font-lock-warning-face :bold nil))
 
   ;; MODE SUPPORT: hydra
   (hydra-face-red                            (:foreground darktooth-bright_red))
@@ -655,7 +655,7 @@
   (hydra-face-teal                           (:foreground darktooth-faded_cyan))
 
   ;; MODE SUPPORT: ivy
-  (ivy-current-match                         (:inherit 'hl-line))
+  (ivy-current-match                         (:background darktooth-dark1 :extend t))
   (ivy-minibuffer-match-face-1               (:background nil))
   (ivy-minibuffer-match-face-2               (:foreground darktooth-lightblue4 :underline t))
   (ivy-minibuffer-match-face-3               (:foreground darktooth-lightblue4 :underline t))
@@ -721,15 +721,17 @@
   (magit-cherry-equivalent                   (:foreground darktooth-neutral_orange))
   (magit-cherry-unmatched                    (:foreground darktooth-neutral_purple))
   (magit-diff-context                        (:foreground darktooth-dark3 :background nil))
-  (magit-diff-context-highlight              (:foreground darktooth-dark4 :background darktooth-dark0_soft))
+  (magit-diff-context-highlight              (:foreground darktooth-dark4 :background darktooth-dark0_soft :extend t))
   (magit-diff-added                          (:foreground darktooth-bright_green :background darktooth-mid_green))
-  (magit-diff-added-highlight                (:foreground darktooth-bright_green :background darktooth-mid_green))
+  (magit-diff-added-highlight                (:foreground darktooth-bright_green :background darktooth-mid_green :extend t))
   (magit-diff-removed                        (:foreground darktooth-bright_red :background darktooth-mid_red))
-  (magit-diff-removed-highlight              (:foreground darktooth-bright_red :background darktooth-mid_red))
+  (magit-diff-removed-highlight              (:foreground darktooth-bright_red :background darktooth-mid_red :extend t))
   (magit-diff-add                            (:foreground darktooth-bright_green))
   (magit-diff-del                            (:foreground darktooth-bright_red))
   (magit-diff-file-header                    (:foreground darktooth-bright_blue))
   (magit-diff-hunk-header                    (:foreground darktooth-neutral_aqua))
+  (magit-diff-hunk-heading                   (:foreground "grey70" :background "grey25" :extend t))
+  (magit-diff-hunk-heading-highlight         (:foreground "grey70" :background "grey35" :extend t))
   (magit-diff-merge-current                  (:background darktooth-dark_yellow))
   (magit-diff-merge-diff3-separator          (:foreground darktooth-neutral_orange :weight 'bold))
   (magit-diff-merge-proposed                 (:background darktooth-dark_green))
