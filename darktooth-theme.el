@@ -130,7 +130,8 @@
   (darktooth-lightblue4      "#66999D" "LightBlue4")
   (darktooth-burlywood4      "#BBAA97" "burlywood4")
   (darktooth-aquamarine4     "#83A598" "aquamarine4")
-  (darktooth-turquoise4      "#61ACBB" "turquoise4"))
+  (darktooth-turquoise4      "#61ACBB" "turquoise4")
+  (darktooth-darker_purple   "#403840" "#5f00af"))
 
  ((default                                   (:foreground darktooth-light0 :background darktooth-dark0))
   (cursor                                    (:background darktooth-light0))
@@ -144,8 +145,8 @@
   (linum                                     (:foreground darktooth-dark2 :slant 'normal :background darktooth-dark0))
   ;; TODO: set up inheritance when native line numbers reach release
   (line-number                               (:foreground darktooth-dark2))
-  (line-number-current-line                  (:foreground darktooth-light4 :background darktooth-dark1))
-  (hl-line                                   (:background darktooth-dark1 :extend t))
+  (line-number-current-line                  (:foreground darktooth-light4 :background darktooth-darker_purple))
+  (hl-line                                   (:background darktooth-darker_purple :extend t))
   (region                                    (:background darktooth-mid_blue :distant-foreground darktooth-light0 :extend t))
   (secondary-selection                       (:background darktooth-dark_blue))
   (cua-rectangle                             (:background darktooth-mid_blue))
