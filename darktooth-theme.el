@@ -921,6 +921,11 @@
 
   ;; MODE SUPPORT: racket
   (racket-selfeval-face                      (:inherit 'font-lock-constant-face))
+
+  ;; ;; MODE SUPPORT: sly
+  (sly-mrepl-output-face                     (:inherit 'font-lock-string-face))
+  (sly-mrepl-note-face                       (:inherit 'font-lock-comment-face))
+  (sly-mrepl-prompt-face                     (:inherit 'font-lock-keyword-face))
   ) ;; autothemer end of reduced-specs
 
  ;; autothemer body
