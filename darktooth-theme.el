@@ -918,6 +918,9 @@
   ;; MODE SUPPORT: tuareg
   (tuareg-font-lock-governing-face           (:inherit 'font-lock-keyword-face))
   (tuareg-font-lock-operator-face            (:inherit 'default))
+
+  ;; MODE SUPPORT: racket
+  (racket-selfeval-face                      (:inherit 'font-lock-constant-face))
   ) ;; autothemer end of reduced-specs
 
  ;; autothemer body
