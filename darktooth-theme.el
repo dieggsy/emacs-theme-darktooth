@@ -914,6 +914,10 @@
 
   ;; MODE SUPPORT: table
   (table-cell                                (:inherit 'default))
+
+  ;; MODE SUPPORT: tuareg
+  (tuareg-font-lock-governing-face           (:inherit 'font-lock-keyword-face))
+  (tuareg-font-lock-operator-face            (:inherit 'default))
   ) ;; autothemer end of reduced-specs
 
  ;; autothemer body
