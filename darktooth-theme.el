@@ -339,7 +339,8 @@
   (ripgrep-match-face                        (:inherit 'ag-match-face))
 
   ;; MODE SUPPORT: diff
-  (diff-changed                              (:foreground darktooth-light1 :background nil))
+  (diff-changed                              (:foreground darktooth-neutral_purple :background nil))
+  (diff-refine-changed                       (:foreground darktooth-bright_purple :background darktooth-muted_purple))
   (diff-added                                (:foreground darktooth-neutral_green :background nil))
   (diff-refine-added                         (:foreground darktooth-bright_green :background darktooth-muted_green))
   (diff-removed                              (:foreground darktooth-neutral_red :background nil))
