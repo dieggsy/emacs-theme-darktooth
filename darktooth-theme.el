@@ -178,11 +178,11 @@
   ;; MODE SUPPORT tab-bar-mode
   (tab-bar (:foreground darktooth-light0 :background darktooth-dark0))
   (tab-bar-tab (:foreground darktooth-light0 :background darktooth-dark0))
-  
+
   ;; MODE SUPPORT tab-line-mode
   (tab-line (:foreground darktooth-light0 :background darktooth-dark0))
   (tab-bar-tab-inactive (:foreground darktooth-light0 :background darktooth-dark0))
-  
+
   ;; MODE SUPPORT: which-key
   (which-key-key-face                        (:inherit 'font-lock-variable-name-face))
 
@@ -923,7 +923,7 @@
   ;; MODE SUPPORT: racket
   (racket-selfeval-face                      (:inherit 'font-lock-constant-face))
 
-  ;; ;; MODE SUPPORT: sly
+  ;; MODE SUPPORT: sly
   (sly-mrepl-output-face                     (:inherit 'font-lock-string-face))
   (sly-mrepl-note-face                       (:inherit 'font-lock-comment-face))
   (sly-mrepl-prompt-face                     (:inherit 'font-lock-keyword-face))
