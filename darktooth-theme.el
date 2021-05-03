@@ -927,6 +927,10 @@
   (sly-mrepl-output-face                     (:inherit 'font-lock-string-face))
   (sly-mrepl-note-face                       (:inherit 'font-lock-comment-face))
   (sly-mrepl-prompt-face                     (:inherit 'font-lock-keyword-face))
+
+  ;; MODE SUPPORT: eyebrowse
+  (eyebrowse-mode-line-active                (:inherit 'mode-line))
+  (eyebrowse-mode-line-inactive              (:inherit 'font-lock-comment-face))
   ) ;; autothemer end of reduced-specs
 
  ;; autothemer body
