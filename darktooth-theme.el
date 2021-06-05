@@ -165,14 +165,14 @@
   (warning                                   (:foreground darktooth-bright-yellow :bold t))
 
   ;; Built-in syntax
-  (font-lock-builtin-face                            (:foreground darktooth-bright-orange :slant 'italic))
-  (font-lock-constant-face                           (:foreground darktooth-burlywood4 :slant 'italic))
-  (font-lock-comment-face                            (:foreground darktooth-dark4 :slant 'italic))
+  (font-lock-builtin-face                            (:foreground darktooth-bright-orange :weight 'bold))
+  (font-lock-constant-face                           (:foreground darktooth-burlywood4 :weight 'bold))
+  (font-lock-comment-face                            (:foreground darktooth-dark4))
   (font-lock-function-name-face                      (:foreground darktooth-light4))
-  (font-lock-keyword-face                            (:foreground darktooth-sienna :slant 'italic))
+  (font-lock-keyword-face                            (:foreground darktooth-sienna :weight 'bold))
   (font-lock-string-face                             (:foreground darktooth-darkslategray4))
   (font-lock-variable-name-face                      (:foreground darktooth-aquamarine4))
-  (font-lock-type-face                               (:foreground darktooth-lightblue4 :slant 'italic))
+  (font-lock-type-face                               (:foreground darktooth-lightblue4 :weight 'bold))
   (font-lock-warning-face                            (:foreground darktooth-neutral-red :bold t))
 
   ;; MODE SUPPORT tab-bar-mode
@@ -207,7 +207,7 @@
   (tldr-code-block                           (:foreground darktooth-bright-blue :bold t))
   (tldr-description                          (:inherit 'default))
   (tldr-title                                (:foreground darktooth-bright-red :bold t :height 1.2))
-  (tldr-introduction                         (:inherit 'font-lock-comment-face :slant 'italic))
+  (tldr-introduction                         (:inherit 'font-lock-comment-face :weight 'bold))
 
   ;; MODE SUPPORT: whitespace-mode
   (whitespace-space                          (:background darktooth-neutral-red))
@@ -381,7 +381,7 @@
   (haskell-constructor-face                  (:foreground darktooth-neutral-aqua :background nil))
 
   ;; MODE SUPPORT: org-mode
-  (org-agenda-date-today                     (:foreground darktooth-light2 :slant 'italic :weight 'bold))
+  (org-agenda-date-today                     (:foreground darktooth-light2 :weight 'bold :weight 'bold))
   (org-agenda-structure                      (:inherit 'font-lock-comment-face))
   (org-archived                              (:foreground darktooth-light0 :weight 'bold))
   (org-date                                  (:foreground darktooth-faded-aqua :underline t))
@@ -879,7 +879,7 @@
   ;; MODE SUPPORT: erc
   (erc-action-face                           (:inherit 'erc-default-face))
   (erc-bold-face                             (:weight 'bold))
-  (erc-current-nick-face                     (:foreground darktooth-aquamarine4 :weight 'bold :slant 'italic))
+  (erc-current-nick-face                     (:foreground darktooth-aquamarine4 :weight 'bold :weight 'bold))
   (erc-nick-default-face                     ())
   (erc-dangerous-host-face                   (:inherit 'font-lock-warning-face))
   (erc-default-face                          (:inherit 'default))
