@@ -550,12 +550,12 @@
   (diredp-dir-heading                        (:foreground darktooth-bright-cyan ))
   (diredp-symlink                            (:inherit 'dired-symlink))
   (diredp-date-time                          (:foreground darktooth-faded-blue ))
-  (diredp-number                             (:foreground darktooth-bright-green ))
+  (diredp-number                             (:inherit 'highlight-numbers-number))
+  (diredp-ignored-file-name                  (:foreground darktooth-dark4 ))
+
   (diredp-no-priv                            (:foreground darktooth-dark4 ))
   (diredp-other-priv                         (:foreground darktooth-dark2 ))
   (diredp-rare-priv                          (:foreground darktooth-dark4 ))
-  (diredp-ignored-file-name                  (:foreground darktooth-dark4 ))
-
   (diredp-dir-priv                           (:foreground darktooth-bright-blue))
   (diredp-exec-priv                          (:foreground darktooth-bright-green))
   (diredp-link-priv                          (:foreground darktooth-faded-cyan))
@@ -570,18 +570,18 @@
   (diredfl-dir-name                           (:inherit 'dired-directory ))
   (diredfl-dir-heading                        (:foreground darktooth-bright-cyan ))
   (diredfl-symlink                            (:inherit 'dired-symlink))
-  (diredfl-date-time                          (:foreground darktooth-faded-blue ))
-  (diredfl-number                             (:foreground darktooth-bright-green ))
+  (diredfl-date-time                          (:foreground darktooth-sienna))
+  (diredfl-number                             (:inherit 'font-lock-constant-face))
+  (diredfl-ignored-file-name                  (:foreground darktooth-dark4 ))
+
   (diredfl-no-priv                            (:foreground darktooth-dark4 ))
   (diredfl-other-priv                         (:foreground darktooth-dark2 ))
   (diredfl-rare-priv                          (:foreground darktooth-dark4 ))
-  (diredfl-ignored-file-name                  (:foreground darktooth-dark4 ))
-
   (diredfl-dir-priv                           (:foreground darktooth-bright-blue))
   (diredfl-exec-priv                          (:foreground darktooth-bright-green))
   (diredfl-link-priv                          (:foreground darktooth-faded-cyan))
   (diredfl-read-priv                          (:foreground darktooth-bright-yellow))
-  (diredfl-write-priv                         (:foreground darktooth-bright-red))
+  (diredfl-write-priv                         (:foreground darktooth-sienna))
 
   ;; MODE SUPPORT: dired-subtree
   (dired-subtree-depth-1-face                 (:background darktooth-dark0))
