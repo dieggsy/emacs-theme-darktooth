@@ -681,6 +681,19 @@
   ;; MODE SUPPORT: counsel
   (counsel-key-binding                       (:inherit font-lock-keyword-face :slant 'normal))
 
+  ;; MODE SUPPORT: selectrum
+  (selectrum-current-candidate               (:background darktooth-darker-purple))
+
+  ;; MODE SUPPORT: marginalia
+  (marginalia-file-priv-no                   (:inherit 'diredfl-no-priv))
+  (marginalia-file-priv-other                (:inherit 'diredfl-other-priv))
+  (marginalia-file-priv-rare                 (:inherit 'diredfl-rare-priv))
+  (marginalia-file-priv-dir                  (:inherit 'diredfl-dir-priv))
+  (marginalia-file-priv-exec                 (:inherit 'diredfl-exec-priv))
+  (marginalia-file-priv-link                 (:inherit 'diredfl-link-priv))
+  (marginalia-file-priv-read                 (:inherit 'diredfl-read-priv))
+  (marginalia-file-priv-write                (:inherit 'diredfl-write-priv))
+
   ;; MODE SUPPORT: smerge
   (smerge-upper                              (:background darktooth-mid-purple))
   (smerge-lower                              (:background darktooth-mid-blue))
