@@ -682,7 +682,7 @@
   (counsel-key-binding                       (:inherit font-lock-keyword-face :slant 'normal))
 
   ;; MODE SUPPORT: selectrum
-  (selectrum-current-candidate               (:background darktooth-darker-purple))
+  (selectrum-current-candidate               (:background darktooth-darker-purple :extend t))
 
   ;; MODE SUPPORT: marginalia
   (marginalia-file-priv-no                   (:inherit 'diredfl-no-priv))
