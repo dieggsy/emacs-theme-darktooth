@@ -79,6 +79,7 @@
       (diff-indicator-changed                    (:inherit 'diff-changed))
       (diff-indicator-removed                    (:inherit 'diff-removed))
       (diff-refine-added                         (:foreground darktooth-bright-green :background darktooth-muted-green))
+      (diff-refine-changed                       (:foreground darktoothbright-purple :background darktooth-muted-purple))
       (diff-refine-removed                       (:foreground darktooth-bright-red :background darktooth-muted-red))
       (diff-removed                              (:foreground darktooth-neutral-red :background nil))
       (diff-file-header                          (:weight 'bold :inherit 'default :extend t))
