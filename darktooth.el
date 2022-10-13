@@ -381,7 +381,7 @@
       (highlight-indentation-face                (:background darktooth-background-1))
       (highlight-numbers-number                  (:foreground darktooth-bright-purple :bold nil))
       (highlight-symbol-face                     (:foreground darktooth-neutral-purple))
-      (hl-line                                   (:background darktooth-background-purple))
+      (hl-line                                   (:background darktooth-darker-purple))
       (hydra-face-amaranth                       (:foreground darktooth-faded-purple))
       (hydra-face-blue                           (:foreground darktooth-bright-blue))
       (hydra-face-pink                           (:foreground darktooth-identifiers-15))
