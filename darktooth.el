@@ -678,6 +678,7 @@
       (tldr-description                          (:inherit 'default))
       (tldr-introduction                         (:inherit 'font-lock-comment-face :slant 'italic))
       (tldr-title                                (:foreground darktooth-bright-red :bold t :height 1.2))
+      (vertical-border                           (:foreground darktooth-foreground-3))
       (vertico-posframe                          (:background darktooth-background-0-hard))
       (vertico-posframe-border                   (:background darktooth-background-0-hard))
       (vertico-posframe-border-2                 (:background darktooth-background-0))
