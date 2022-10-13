@@ -253,7 +253,7 @@
       (git-commit-note                           (:inherit 'font-lock-string-face))
       (git-commit-overlong-summary               (:inherit 'font-lock-warning-face))
       (git-commit-pseudo-header                  (:inherit 'font-lock-string-face))
-      (git-commit-summary                        (:inherit 'font-lock-type-face))
+      (git-commit-summary                        (:inherit 'font-lock-type-face :slant 'normal))
       (git-gutter+-added                         (:foreground darktooth-faded-green :background darktooth-muted-green))
       (git-gutter+-commit-header-face            (:inherit 'font-lock-comment-face))
       (git-gutter+-deleted                       (:foreground darktooth-faded-red :background darktooth-muted-red))
