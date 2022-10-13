@@ -242,7 +242,7 @@
       (font-lock-type-face                       (:foreground darktooth-lightblue4 :slant 'italic))
       (font-lock-variable-name-face              (:foreground darktooth-aquamarine4))
       (font-lock-warning-face                    (:foreground darktooth-neutral-red :bold t))
-      (fringe                                    (:background darktooth-background-0))
+      (fringe                                    (:foreground darktooth-background-4 :background darktooth-background-0))
       (git-commit-comment-action                 (:inherit 'git-commit-comment-branch))
       (git-commit-comment-branch                 (:inherit 'font-lock-variable-name-face))
       (git-commit-comment-detached               (:inherit 'git-commit-comment-branch))
