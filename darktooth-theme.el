@@ -222,7 +222,23 @@
                                                         ,darktooth-neutral-purple
                                                         ,darktooth-neutral-cyan
                                                         ,darktooth-foreground-1])
-                             `(pdf-view-midnight-colors '(,darktooth-foreground-0 . ,darktooth-background-0))))
+                             `(pdf-view-midnight-colors '(,darktooth-foreground-0 . ,darktooth-background-0))
+                             `(xterm-color-names [,darktooth-background-0
+                                                  ,darktooth-faded-red
+                                                  ,darktooth-faded-green
+                                                  ,darktooth-faded-yellow
+                                                  ,darktooth-faded-blue
+                                                  ,darktooth-faded-purple
+                                                  ,darktooth-faded-cyan
+                                                  ,darktooth-foreground-3])
+                             `(xterm-color-names-bright ["#686868"
+                                                         ,darktooth-bright-red
+                                                         ,darktooth-bright-green
+                                                         ,darktooth-bright-yellow
+                                                         ,darktooth-bright-blue
+                                                         ,darktooth-bright-purple
+                                                         ,darktooth-bright-cyan
+                                                         ,darktooth-foreground-0])))
 
 (defun darktooth-modeline-one ()
   "Optional modeline style one for darktooth."
