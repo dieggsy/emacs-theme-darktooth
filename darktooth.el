@@ -27,8 +27,8 @@
 (defmacro darktooth-deftheme (name description palette &rest body)
   "Create darktooth theme with NAME, DESCRIPTION, PALETTE and BODY."
   `(autothemer-deftheme ,name ,description ,palette
-     ((Man-overstrike                            (:foreground darktooth-bright-red :bold t))
-      (Man-underline                             (:foreground darktooth-bright-green :bold t))
+     ((Man-overstrike                            (:foreground darktooth-sienna))
+      (Man-underline                             (:foreground darktooth-aquamarine4))
       (ac-dabbrev-menu-face                      (:inherit 'popup-face))
       (ac-dabbrev-selection-face                 (:inherit 'popup-menu-selection-face))
       (ag-hit-face                               (:foreground darktooth-neutral-blue))
@@ -712,8 +712,8 @@
       (whitespace-space-before-tab               (:foreground darktooth-background-4 :background darktooth-background-0))
       (whitespace-tab                            (:foreground darktooth-background-4 :background darktooth-background-0))
       (whitespace-trailing                       (:foreground darktooth-neutral-red :background darktooth-background-1))
-      (woman-bold                                (:foreground darktooth-bright-red :bold t))
-      (woman-italic                              (:foreground darktooth-bright-green :bold t)))
+      (woman-bold                                (:foreground darktooth-sienna))
+      (woman-italic                              (:foreground darktooth-aquamarine4)))
     ,@body))
 
 ;;;###autoload
