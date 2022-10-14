@@ -622,6 +622,7 @@
       (secondary-selection                       (:background darktooth-background-blue))
       (sh-heredoc                                (:foreground darktooth-darkslategray4 :background nil))
       (sh-quoted-exec                            (:foreground darktooth-darkslategray4 :background nil))
+      (shadow                                    (:foreground darktooth-background-4))
       (show-paren-match                          (:foreground darktooth-foreground-0 :background darktooth-faded-blue))
       (show-paren-mismatch                       (:foreground darktooth-foreground-0-hard :background darktooth-faded-red))
       (sly-mrepl-output-face                     (:inherit 'font-lock-string-face))
