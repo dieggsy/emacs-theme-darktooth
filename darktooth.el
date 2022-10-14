@@ -243,6 +243,7 @@
       (font-lock-variable-name-face              (:foreground darktooth-aquamarine4))
       (font-lock-warning-face                    (:foreground darktooth-neutral-red :bold t))
       (fringe                                    (:foreground darktooth-background-4 :background darktooth-background-0))
+      (geiser-font-lock-repl-prompt              (:inherit 'font-lock-keyword-face))
       (git-commit-comment-action                 (:inherit 'git-commit-comment-branch))
       (git-commit-comment-branch                 (:inherit 'font-lock-variable-name-face))
       (git-commit-comment-detached               (:inherit 'git-commit-comment-branch))
