@@ -227,7 +227,7 @@
       (font-latex-sectioning-5-face              (:foreground darktooth-neutral-green))
       (font-latex-string-face                    (:inherit 'font-lock-string-face))
       (font-latex-warning-face                   (:inherit 'warning))
-      (font-lock-builtin-face                    (:foreground darktooth-bright-orange :slant 'italic))
+      (font-lock-builtin-face                    (:foreground darktooth-bright-orange))
       (font-lock-comment-delimiter-face          (:inherit 'font-lock-comment-face))
       (font-lock-comment-face                    (:foreground darktooth-medium :slant 'italic))
       (font-lock-constant-face                   (:foreground darktooth-burlywood4 :slant 'italic))
