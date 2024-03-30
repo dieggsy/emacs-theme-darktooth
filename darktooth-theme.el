@@ -128,7 +128,7 @@
    (darktooth-burlywood4         "#BBAA97" "burlywood4")
    (darktooth-aquamarine4        "#83A598" "aquamarine4")
    (darktooth-turquoise4         "#61ACBB" "turquoise4")
-   (darktooth-darker-purple      "#403840" "#5f00af"))
+   (darktooth-darker-purple      "#403840" "color-236"))
 
  ;; autothemer body
  (defface darktooth-modeline-one-active
