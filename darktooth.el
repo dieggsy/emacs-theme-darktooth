@@ -633,6 +633,8 @@
       (show-paren-match                          (:foreground darktooth-foreground-0 :background darktooth-faded-blue))
       (show-paren-mismatch                       (:foreground darktooth-foreground-0-hard :background darktooth-faded-red))
       (slime-repl-inputed-output-face            (:inherit 'font-lock-constant-face))
+      (slime-repl-output-mouseover-face          (:inherit 'slime-repl-inputed-output-face))
+      (slime-inspector-value-face                (:inherit 'font-lock-constant-face))
       (sly-mrepl-output-face                     (:inherit 'font-lock-string-face))
       (sly-mrepl-note-face                       (:inherit 'font-lock-comment-face))
       (sly-mrepl-prompt-face                     (:inherit 'font-lock-keyword-face))
