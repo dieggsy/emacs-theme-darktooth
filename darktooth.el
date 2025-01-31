@@ -695,7 +695,7 @@
       (vc-edited-state                           (:foreground darktooth-bright-yellow))
       (vc-conflict-state                         (:foreground darktooth-bright-red))
       (vertico-current                           (:background darktooth-darker-purple))
-      (vertical-border                           (:foreground darktooth-foreground-3))
+      (vertical-border                           (:foreground darktooth-background-0))
       (vertico-posframe                          (:background darktooth-background-0-hard))
       (vertico-posframe-border                   (:background darktooth-background-0-hard))
       (vertico-posframe-border-2                 (:background darktooth-background-0))
