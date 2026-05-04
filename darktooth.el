@@ -389,6 +389,7 @@
       (helm-swoop-target-line-face               (:foreground darktooth-foreground-0-hard :background darktooth-faded-blue))
       (helm-swoop-target-word-face               (:foreground darktooth-foreground-0 :background darktooth-faded-aqua))
       (helm-visible-mark                         (:foreground darktooth-black :background darktooth-foreground-3))
+      (help-key-binding                          (:inherit font-lock-keyword-face))
       (hi-black-b                                (:foreground darktooth-bright-orange :background darktooth-background-0-hard :bold t))
       (hi-black-hb                               (:foreground darktooth-bright-cyan :background darktooth-background-0-hard :bold t))
       (hi-blue                                   (:foreground darktooth-background-0-hard :background darktooth-bright-blue))
