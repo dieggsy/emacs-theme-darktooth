@@ -564,6 +564,7 @@
       (org-agenda-structure                      (:inherit 'font-lock-comment-face))
       (org-archived                              (:foreground darktooth-foreground-0 :weight 'bold))
       (org-block                                 (:foreground darktooth-foreground-2 :background darktooth-background-0-soft :extend t))
+      (org-block-begin-line                      (:inherit 'org-meta-line :background darktooth-background-0-soft :extend t))
       (org-checkbox                              (:foreground darktooth-foreground-2 :background darktooth-background-0 :box (:line-width 1 :style 'released-button)))
       (org-code                                  (:inherit 'org-block))
       (org-column                                (:background darktooth-background-0))
