@@ -565,7 +565,7 @@
       (org-archived                              (:foreground darktooth-foreground-0 :weight 'bold))
       (org-block                                 (:foreground darktooth-foreground-2 :background darktooth-background-0-soft :extend t))
       (org-block-begin-line                      (:inherit 'org-meta-line :background darktooth-background-0-soft :extend t))
-      (org-checkbox                              (:foreground darktooth-foreground-2 :background darktooth-background-0 :box (:line-width 1 :style 'released-button)))
+      (org-checkbox                              (:foreground darktooth-foreground-2 :background darktooth-background-0))
       (org-code                                  (:inherit 'org-block))
       (org-column                                (:background darktooth-background-0))
       (org-column-title                          (:background darktooth-background-0-hard :underline t :weight 'bold))
